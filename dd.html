@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	html{
+		height:100%;
+	}
+		body {
+			min-width: 1180px;
+		  max-width:1920px;
+		  margin:0 auto;
+			display: -ms-flexbox;
+		  -ms-flex-direction:column;
+		 min-height: 100%;
+		  padding: 10px;
+		  border: 1px solid hsla(120,30%,50%,0.8);
+		  margin: 50px;
+		  background-color:hsla(10,80%,10%,0.2);
+}
+body > div {
+  border: 1px solid hsla(120,30%,50%,0.8);
+  margin: 5px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 100px;
+  color: #fff;
+  font-weight:bold;
+ }
+body > div:nth-child(1){
+	height:75px;
+  position:relative;
+  z-index: 3;
+  height:100px;
+  background-color: hsla(120,30%,50%,0.8);
+}
+body > div:nth-child(2){
+	display: -ms-flexbox;
+	-ms-flex-direction:row;
+	-ms-align-items: stretch;
+   -ms-flex:1;
+  background-color: hsla(120,30%,10%,0.8);
+}
+body > div:nth-child(2):after{
+	display: block;
+	content: "";
+	clear:both;
+}
+body > div:nth-child(3) {
+  height:90px;
+  background-color: rgb(220,220,220);
+  overflow: hidden;
+  background-color: hsla(20,30%,50%,0.8);
+}
+.left{
+	float: left;
+	height:100%;
+}
+.right{
+	border:1px solid white;
+	float:left;
+	height:100%;
+}
+	</style>
+</head>
+<body>
+	  <div class="flexbox-items">Box1</div>
+	  <div class="flexbox-items">
+		<div class="left">
+			<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		<p>rr</p>
+		</div>
+		<div class="right">222</div>
+	  </div>
+  		<div class="flexbox-items">Box3</div>
+</body>
+</html>
